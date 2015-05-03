@@ -3,7 +3,7 @@
 [CSV] (http://it.wikipedia.org/wiki/Comma-separated_values) è un _formato testuale_ per salvare dati organizzati in tabella. CSV è l'acronimo
 di Comma-Separated Values, poichè i valori in ogni riga sono separati da virgole.
 In realtà è possibile impiegare anche altri caratteri, come, ad esempio, punto e
-virgola o tabulazione.
+virgola.
 
 Il formato CSV può essere letto, ad esempio, da Microsoft Excel o Open Office Calc.
 
@@ -18,12 +18,11 @@ I dati di uno studente, da richiedere in questo esatto ordine, sono:
 4. classe: stringa di lunghezza massima MAX_STRLEN
 
 Oltre a scrivere i dati, il programma scrive anche la prima riga del file, che
-contiene i nomi dei campi. Il carattere impiegato per separare i campi è la tabulazione.
-Per stampare il carattere di tabulazione si impiega `\t`.
+contiene i nomi dei campi. Il carattere impiegato per separare i campi è il punto e virgola.
 
 Esempio
 ```
-nome    cognome età classe
-nicola  malfagia    13  3ainf
-francesco   corbucci    5   3binf
+nome;cognome;eta';classe
+nicola;malfagia;13;3ainf
+francesco;corbucci;5;3binf
 ```
