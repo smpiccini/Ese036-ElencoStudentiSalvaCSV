@@ -41,6 +41,7 @@ int main(int argc, char** argv) {
             scanf("%s", elenco.classe);
             fprintf(puntafile, "%s;%s;%d;%s\n", elenco.nome, elenco.cognome, elenco.eta, elenco.classe);
         }
+        fclose(puntafile);
     }
     return (EXIT_SUCCESS);
 }
