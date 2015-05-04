@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
     FILE *puntafile;
     studente elenco;
     int i;
-    puntafile=fopen("elenco.csv", "w");
+    puntafile=fopen(FNAME, "w");
     
     if (puntafile == NULL) {
         printf("Impossibile aprire il file.");
